@@ -1,0 +1,3 @@
+com\example\email\EmailSenderApplication.class
+com\example\email\EmailService.class
+com\example\email\EmailController.class
