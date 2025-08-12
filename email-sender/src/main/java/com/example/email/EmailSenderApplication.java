@@ -18,8 +18,8 @@ public class EmailSenderApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
         emailService.sendEmail(
-            "dibyajeet.das@mapmyindia.com",       // To
-            "vivek.k@mapmyindia.com",            // CC (can be comma separated)
+            "dibyajeetdem@gmail.com",       // To
+            "rahul@gmail.com",            // CC (can be comma separated)
             "bccperson@example.com",            // BCC (can be comma separated)
             "Test Email from Spring Boot",      // Subject
             "Hello, this is a test email sent via Gmail SMTP using Spring Boot!" // Body
